@@ -27,6 +27,6 @@ function addTask(){
     
 }
 
-function welcome(){
+function welcomeOurNewComers(){
    console.log('basmala');
 }
