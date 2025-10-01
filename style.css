@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todo-container{
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.input-section input{
+    padding: 10px 5px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 10px;
+}
+button#addBtn{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid pink;
+}
+#tasksList{
+    width: 70%;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 10px 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete{
+    color: gray;
+    text-decoration: line-through;
+}
+.complete::before{
+    content: '\f058';
+    font-family: 'FONTAWESOME';    
+
+}
+li::before{
+    content: '\f111';
+    font-family: 'FONTAWESOME';    
+}
