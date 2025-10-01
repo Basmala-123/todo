@@ -26,3 +26,7 @@ function addTask(){
    taskInput.value = '';
     
 }
+
+function welcome(){
+   console.log('basmala');
+}
