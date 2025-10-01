@@ -2,11 +2,9 @@ let taskInput = document.querySelector('#taskInput');
 let addBtn = document.querySelector('#addBtn')
 let tasksList =  document.querySelector('#tasksList')
 
-
 addBtn.addEventListener('click',addTask);
 
 function addTask(){
-   console.log(taskInput.value);
    if(taskInput.value == '') return;
 
    let li = document.createElement('li');
